@@ -2,19 +2,9 @@
 ## Servers
 ## Amost always imports
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Host          | MAC                | Arista Ports    |   Speed  |
+| ------------- | ------------------ | --------------- | -------- |
+| dcstor03      | 3c:fd:fe:bc:f3:b4  |  Et18/1         |  25G     |
+| dcstor03      | 3c:fd:fe:bc:f3:b4  |  Et18/1         |  25G     |
 
 
-|  R |  Python |    Matlab |
-| --------- |:---|:---------|:-----|
-| library(tidyverse) |import numpy as np|
-
-
-| Host          |  MAC          |  Arista Ports   |   Speed   |
-| ------------- | ------------- |-----------------------------|
-
-| Content Cell  | Content Cell  |  Content Cell   |   Content |
-| Content Cell  | Content Cell  |  Content Cell   |   Content |
