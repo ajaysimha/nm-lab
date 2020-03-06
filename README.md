@@ -20,4 +20,4 @@ This project deploy OpenShift 4.x (4.3 starting) cluster. We will use the follow
 | dcstor02      | Storage2           |
 | dcstor03      | Storage3           |
 
-Details of the servers such as MAC addresses, ports etc is contained in https://github.com/ajaysimha/webscale-nm/edit/master/server-info.md
+Details of the servers such as MAC addresses, ports etc is contained in https://github.com/ajaysimha/webscale-nm/blob/master/server-info.md
