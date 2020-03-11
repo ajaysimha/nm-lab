@@ -70,3 +70,11 @@
 |               | 3c:fd:fe:af:79:65  |  Et3/3          |  25G     |
 |               | 3c:fd:fe:af:7a:64  |  Et3/2          |  25G     |
 |               | 3c:fd:fe:af:7a:65  |  Et3/1          |  25G     |
+| dcl02         | 3c:fd:fe:af:76:90  |  Et2/4          |  25G     |
+|               | 3c:fd:fe:af:76:91  |  Et2/3          |  25G     |
+|               | 3c:fd:fe:af:7a:28  |  Et2/2          |  25G     |
+|               | 3c:fd:fe:af:7a:29  |  Et2/1          |  25G     |
+| dcl01         | 3c:fd:fe:af:7a:74  |  Et1/4          |  25G     |
+|               | 3c:fd:fe:af:7a:75  |  Et1/3          |  25G     |
+|               | 3c:fd:fe:af:7a:44  |  Et1/2          |  25G     |
+|               | 3c:fd:fe:af:7a:45  |  Et1/1          |  25G     |
