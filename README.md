@@ -5,21 +5,21 @@ This project deploy OpenShift 4.x (4.3 starting) cluster. We will use the follow
 
 
 
-| Host          | Role               |
-| ------------- | ------------------ |
-| dcl01         | Bastian            |
-| dcl02         | Master1            |
-| dcl03         | Master2            |
-| dcl04         | Master3            |
-| dcl05         | Worker1            |
-| dcl06         | Worker2            |
-| dcl07         | Worker3            |
-| dcl08         | Worker4            |
-| dcl09         | Worker5            |
-| dcl10         | Worker6            |
-| dcstor01      | Storage1           |
-| dcstor02      | Storage2           |
-| dcstor03      | Storage3           |
+| Host          | Role                | External        | Baremetal    | Provisioning  |
+| ------------- | --------------------|-----------------|--------------|---------------|
+| dcl01         | bastian             | 36.101.16.26/16 | 192.168.1.26 | 172.22.0.1/24 |   
+| dcl02         | master-0            | none            | 192.168.1.10 | dhcp          |
+| dcl03         | master-1            | none            | 192.168.1.11 | dhcp          |
+| dcl04         | master-2            | none            | 192.168.1.12 | dhcp          |
+| dcl05         | worker-13           | none            | 192.168.1.13 | dhcp          |
+| dcl06         | worker-14           |
+| dcl07         | worker-15           |
+| dcl08         | worker-16           |
+| dcl09         | worker-17           |
+| dcl10         | worker-18           |
+| dcstor01      | storage-19          |
+| dcstor02      | storage-20          |
+| dcstor03      | storage-21          |
 
 Details of the servers such as MAC addresses, ports etc is contained in https://github.com/ajaysimha/webscale-nm/blob/master/server-info.md
 
@@ -43,4 +43,4 @@ Reserved IP
 | API | api.\<cluster-name\>.\<domain\>   | 192.168.68. |
 | API (internal) | api-int.\<cluster-name\>.\<domain\>   | \<ip\> |
 | Ingress LB (apps) |  *.apps.\<cluster-name\>.\<domain\>    | \<ip\> |
-| Bastion  | pool4-infra          | 192.168.68.192/27 |
+| Bastion  | dcl01          | 192.168.68.192/27 |
