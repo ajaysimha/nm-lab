@@ -12,14 +12,15 @@ This project deploy OpenShift 4.x (4.3 starting) cluster. We will use the follow
 | dcl03         | master-1            | none            | 192.168.1.11 | dhcp          |
 | dcl04         | master-2            | none            | 192.168.1.12 | dhcp          |
 | dcl05         | worker-13           | none            | 192.168.1.13 | dhcp          |
-| dcl06         | worker-14           |
-| dcl07         | worker-15           |
-| dcl08         | worker-16           |
-| dcl09         | worker-17           |
-| dcl10         | worker-18           |
-| dcstor01      | storage-19          |
-| dcstor02      | storage-20          |
-| dcstor03      | storage-21          |
+| dcl06         | worker-14           | none            | 192.168.1.14 | dhcp          |
+| dcl07         | worker-15           | none            | 192.168.1.15 | dhcp          |
+| dcl08         | worker-16           | none            | 192.168.1.16 | dhcp          |
+| dcl09         | worker-17           | none            | 192.168.1.17 | dhcp          |
+| dcl10         | worker-18           | none            | 192.168.1.18 | dhcp          |
+| dcstor01      | storage-19          | none            | 192.168.1 19 | dhcp          |
+| dcstor02      | storage-20          | none            | 192.168.1.20 | dhcp          |
+| dcstor03      | storage-21          | none            | 192.168.1.21 | dhcp          |
+| 
 
 Details of the servers such as MAC addresses, ports etc is contained in https://github.com/ajaysimha/webscale-nm/blob/master/server-info.md
 
