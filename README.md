@@ -7,7 +7,7 @@ This project deploy OpenShift 4.x (4.3 starting) cluster. We will use the follow
 
 | Host          | Role                | External        | Baremetal    | Provisioning  |
 | ------------- | --------------------|-----------------|--------------|---------------|
-| dcl01         | bastian             | 36.101.16.26/16 | 192.168.1.26 | 172.22.0.1/24 |   
+| dcl01         | bastion             | 36.101.16.26/16 | 192.168.1.26 | 172.22.0.1/24 |   
 | dcl02         | master-0            | none            | 192.168.1.10 | dhcp          |
 | dcl03         | master-1            | none            | 192.168.1.11 | dhcp          |
 | dcl04         | master-2            | none            | 192.168.1.12 | dhcp          |
