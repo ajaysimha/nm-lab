@@ -1,4 +1,5 @@
-# vcp-webscale
+# nm-lab-info
+
 ## Introduction
 This project deploy OpenShift 4.x (4.3 starting) cluster. We will use the following roles:
 
@@ -21,3 +22,8 @@ This project deploy OpenShift 4.x (4.3 starting) cluster. We will use the follow
 | dcstor03      | Storage3           |
 
 Details of the servers such as MAC addresses, ports etc is contained in https://github.com/ajaysimha/webscale-nm/blob/master/server-info.md
+
+
+## Subnets
+IP Range: 36.101.80.1 - 36.101.99.255
+Gateway: 36.101.255.1.
