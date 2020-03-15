@@ -17,7 +17,8 @@ There is a NoMachine NX GUI that is running on the jump host server in the Intel
   - Once connected, use your username / password for NX to login
   - Launch the browser and connect to IPMI
 
-Ajay's ssh config file (Prepared with guidance from Ali :-)
+** Ajay's ssh config file (Prepared with guidance from Ali :-)
+```
 Host *
   ServerAliveInterval 240
   ServerAliveCountMax 2
@@ -40,3 +41,4 @@ Host bastion
   IdentityFile ~/.ssh/id_rsa
   User asimha
   ProxyCommand ssh -CW %h:%p nm-jump
+```
