@@ -12,7 +12,7 @@ You can either do this via the cli or via webUI. See below for more information.
 ## Installing RHEL 8 on Bastion Host
 - Done
 
-
+```
 [root@dcl01 ~]# lsblk
 NAME          MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
 sda             8:0    0  1.1T  0 disk 
@@ -25,6 +25,7 @@ sda             8:0    0  1.1T  0 disk
 sdb             8:16   0  1.1T  0 disk 
 └─sdb1          8:17   0  1.1T  0 part 
   └─rhel-home 253:2    0  1.1T  0 lvm  /home
+```
 
 Set Root Password
 During OS installation, set the root password to the standard password used in your environment.
