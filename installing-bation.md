@@ -59,6 +59,7 @@ usermod --append --groups libvirt corona
 
 Configure Host Networking
 Via NetworkManager, create two bridges: provisioning and baremetal. Add corresponding interfaces to the bridges. Be aware you may be disconnected. You should run this command in a tmux session to ensure that the script completes.
+```
 nohup bash -c '
     export PUB_CONN=ens1f0
     export PROV_CONN=eno1
@@ -88,7 +89,9 @@ nohup bash -c '
     nmcli con down baremetal
     nmcli con up baremetal
     '
+```
 Your connections should appear as below.
+```
 [corona@bastion ~]$ nmcli d
 DEVICE        TYPE      STATE         CONNECTION          
 baremetal     bridge    connected     baremetal           
@@ -98,6 +101,7 @@ ens1f0        ethernet  connected     bridge-slave-ens1f0
 ens1f1        ethernet  disconnected  --                  
 ens3f0        ethernet  disconnected  --                  
 ens3f1        ethernet  disconnected  --               
+```
 
 Setup Chrony
 Use the following internal ntp/chrony server 96.239.250.57 or 96.239.250.58.
