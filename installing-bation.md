@@ -10,6 +10,8 @@ You can either do this via the cli or via webUI. See below for more information.
 ** We will try without RAID initially **
 
 ## Installing RHEL 8 on Bastion Host
+
+#####
 - Done
 
 ```
